@@ -30,6 +30,7 @@ struct ContentView: View {
                 .background(Rectangle()
                     .foregroundColor(Color(red: 255, green: 100, blue: 0)))
                 .cornerRadius(30)
+                .shadow(color: .white,radius: 10)
                 .padding()
                 
                 
@@ -74,6 +75,7 @@ struct ContentView: View {
                 .background(Rectangle()
                     .foregroundColor(Color(red: 255, green: 100, blue: 0)))
                 .cornerRadius(30)
+                .shadow(color: .white,radius: 10)
                 .padding()
                 
                 VStack {
@@ -94,6 +96,7 @@ struct ContentView: View {
                 .background(Rectangle()
                     .foregroundColor(Color(red: 255, green: 100, blue: 0)))
                 .cornerRadius(30)
+                .shadow(color: .white,radius: 10)
                 .padding()
             }
             
