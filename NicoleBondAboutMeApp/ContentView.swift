@@ -12,7 +12,9 @@ struct ContentView: View {
         ZStack {
             Color(.systemPurple)
                 .ignoresSafeArea()
-            
+
+
+//my picture and intro
             VStack(alignment: .center){
                 VStack {
                     Image("NBPicture")
@@ -34,7 +36,11 @@ struct ContentView: View {
                 .padding()
                 
                 
+//side-by-side of my favorites
                 HStack(alignment: .center, spacing: 40) {
+                    
+                    
+//info about favorite food
                     VStack {
                         Image("Sushi")
                             .resizable()
@@ -47,12 +53,13 @@ struct ContentView: View {
                             .underline()
                             .italic()
                         
-                        Text("Sushi -10/10 👏🏾")
+                        Text("Sushi - 10/10 👏🏾")
                             .font(.caption)
                             .italic()
-                        
                     }
                     
+                    
+//info about my favorite artist
                     VStack {
                         Image("ToriKelly")
                             .resizable()
@@ -78,13 +85,15 @@ struct ContentView: View {
                 .shadow(color: .white,radius: 10)
                 .padding()
                 
+                
+//information about my dog
                 VStack {
                     Image("Twix")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(30)
                     
-                    Text("This is Twix, my 6-year old Terrier Mix!")
+                    Text("This is Twix, my 7-year old Terrier Mix!")
                         .font(.body)
                         .italic()
                         .fontWeight(.bold)
